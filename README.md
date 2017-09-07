@@ -6,8 +6,8 @@ This repo is implementations of of [Recurrent Convolutional Neural Network for o
 ## Keras
 Keras-RCNN is a Keras-implementation.
 
-## Tensorflow
-I will push later.
+## TensorFlow
+TensorFlow-RCNN is a TensorFlow-implenmentation.
 
 ## Data
 The data set is [SVHN](http://ufldl.stanford.edu/housenumbers) downloaded from stanford University
