@@ -1,5 +1,5 @@
-#Recurrent Convolutional Neural Network(RCNN)
-This repo is implementations of of [Recurrent Convolutional Neural Network for object recognition](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_004.pdf). 
+# Recurrent Convolutional Neural Network(RCNN)
+This repo is implementations of [Recurrent Convolutional Neural Network for object recognition](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/2B_004.pdf). 
 
 **Note:** I have modified a part of architecture.
 
