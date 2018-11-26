@@ -12,8 +12,8 @@ class RCNN:
 
     def RCL(self, X):
         with tf.variable_scope("RCL") as scope:
-            wr = tf.get_variable('weight_r', [3, 3, self.K, self.K],
-                                 initializer=tf.contrib.layers.xavier_initializer_conv2d())
+            #wr = tf.get_variable('weight_r', [3, 3, self.K, self.K],
+            #                     initializer=tf.contrib.layers.xavier_initializer_conv2d())
             # # biases = tf.get_variable('biases_r', [self.K],
             # #                          initializer=tf.random_normal_initializer())
             conv1 = tf.layers.conv2d(X, self.K, kernel_size=(3, 3),padding='same',reuse=None, name='rcl')
